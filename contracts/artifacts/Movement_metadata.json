@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "Movement",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stock.sol": "Movement"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stock.sol": {
+			"keccak256": "0x3fc5cf5266c76a7fb382acf1e13fe3c6c59efe2e38abe15963f050e1d2fba455",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ac3bc5254d6b599e5488e6dedde13256ab4efed5bfd4185f154ed48e41616def",
+				"dweb:/ipfs/QmbkS9UzBTxyJhgRofGn4K7tBQCyRjKEiMvr8wZSYiyvsG"
+			]
+		}
+	},
+	"version": 1
+}

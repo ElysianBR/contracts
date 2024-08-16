@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "MovimentDef",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"definitions/MovementDef.sol": "MovimentDef"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"definitions/MovementDef.sol": {
+			"keccak256": "0xf7e824cd4bcf8602cfb5ec0c92e5b8577027c3a729d93b10c81f5383038af268",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c2c23e37e627767d2a18c93b95a0bc26db436fc6ca143a8c25fc28207984597e",
+				"dweb:/ipfs/QmezVjBPWcXTit8j1GmbqWxfiZNWZvPnbsxzwbomz3XsaR"
+			]
+		},
+		"definitions/ProductDef.sol": {
+			"keccak256": "0x50b1cfc5dd3130cc6a3cb83498d06ff1053840cc798825f58f135f89f0f6c6b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4b4facc38d0a18ee0cd34e961e99255045151f62e34d0d7f1df2635479180cc",
+				"dweb:/ipfs/QmVYpg6EhPj29QFiEU1edsbpQwXTQwmsnW1HXEAKV9eMKG"
+			]
+		}
+	},
+	"version": 1
+}

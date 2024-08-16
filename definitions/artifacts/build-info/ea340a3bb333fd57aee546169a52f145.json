@@ -1,0 +1,145 @@
+{
+	"id": "ea340a3bb333fd57aee546169a52f145",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"definitions/ProductDef.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n/**\n * @title Product\n */\nstruct ProductDef {\n    string id;\n    string description;\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"definitions/ProductDef.sol": {
+				"ast": {
+					"absolutePath": "definitions/ProductDef.sol",
+					"exportedSymbols": {
+						"ProductDef": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"canonicalName": "ProductDef",
+							"documentation": {
+								"id": 2,
+								"nodeType": "StructuredDocumentation",
+								"src": "57:25:0",
+								"text": " @title Product"
+							},
+							"id": 7,
+							"members": [
+								{
+									"constant": false,
+									"id": 4,
+									"mutability": "mutable",
+									"name": "id",
+									"nameLocation": "114:2:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 7,
+									"src": "107:9:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 3,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "107:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 6,
+									"mutability": "mutable",
+									"name": "description",
+									"nameLocation": "129:11:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 7,
+									"src": "122:18:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 5,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "122:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "ProductDef",
+							"nameLocation": "90:10:0",
+							"nodeType": "StructDefinition",
+							"scope": 8,
+							"src": "83:60:0",
+							"visibility": "public"
+						}
+					],
+					"src": "32:112:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "StockDef",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"definitions/StockDef.sol": "StockDef"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"definitions/ProductDef.sol": {
+			"keccak256": "0x50b1cfc5dd3130cc6a3cb83498d06ff1053840cc798825f58f135f89f0f6c6b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4b4facc38d0a18ee0cd34e961e99255045151f62e34d0d7f1df2635479180cc",
+				"dweb:/ipfs/QmVYpg6EhPj29QFiEU1edsbpQwXTQwmsnW1HXEAKV9eMKG"
+			]
+		},
+		"definitions/StockDef.sol": {
+			"keccak256": "0x8e75806f9d9ff1895b498fc5166492a5ac4145b2b929ac8d1293a82ef77fa50f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://076a7eb233c69507399a3d29cf1bca13eca96838f855a1968fe627a75ceaabe5",
+				"dweb:/ipfs/QmS3gJV6rGZJTTt9dWtgVotbwemqkqP3W8peTHU43vWQrZ"
+			]
+		}
+	},
+	"version": 1
+}

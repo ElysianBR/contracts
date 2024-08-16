@@ -1,0 +1,302 @@
+{
+	"id": "4701ba302f53b313a5c15f5839133d84",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"definitions/MovimentDef.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"./ProductDef.sol\";\r\n\r\n/**\r\n * @title StockDef\r\n */\r\nstruct Moviment {\r\n    address minter;\r\n    address owner;\r\n    Product product_id;\r\n}"
+			},
+			"definitions/ProductDef.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n/**\n * @title Product\n */\nstruct Product {\n    string id;\n    uint256 description;\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"definitions/MovimentDef.sol": {
+				"ast": {
+					"absolutePath": "definitions/MovimentDef.sol",
+					"exportedSymbols": {
+						"Moviment": [
+							11
+						],
+						"Product": [
+							19
+						]
+					},
+					"id": 12,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "39:23:0"
+						},
+						{
+							"absolutePath": "definitions/ProductDef.sol",
+							"file": "./ProductDef.sol",
+							"id": 2,
+							"nameLocation": "-1:-1:-1",
+							"nodeType": "ImportDirective",
+							"scope": 12,
+							"sourceUnit": 20,
+							"src": "66:26:0",
+							"symbolAliases": [],
+							"unitAlias": ""
+						},
+						{
+							"canonicalName": "Moviment",
+							"documentation": {
+								"id": 3,
+								"nodeType": "StructuredDocumentation",
+								"src": "96:28:0",
+								"text": " @title StockDef"
+							},
+							"id": 11,
+							"members": [
+								{
+									"constant": false,
+									"id": 5,
+									"mutability": "mutable",
+									"name": "minter",
+									"nameLocation": "157:6:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 11,
+									"src": "149:14:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_address",
+										"typeString": "address"
+									},
+									"typeName": {
+										"id": 4,
+										"name": "address",
+										"nodeType": "ElementaryTypeName",
+										"src": "149:7:0",
+										"stateMutability": "nonpayable",
+										"typeDescriptions": {
+											"typeIdentifier": "t_address",
+											"typeString": "address"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 7,
+									"mutability": "mutable",
+									"name": "owner",
+									"nameLocation": "178:5:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 11,
+									"src": "170:13:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_address",
+										"typeString": "address"
+									},
+									"typeName": {
+										"id": 6,
+										"name": "address",
+										"nodeType": "ElementaryTypeName",
+										"src": "170:7:0",
+										"stateMutability": "nonpayable",
+										"typeDescriptions": {
+											"typeIdentifier": "t_address",
+											"typeString": "address"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 10,
+									"mutability": "mutable",
+									"name": "product_id",
+									"nameLocation": "198:10:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 11,
+									"src": "190:18:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_struct$_Product_$19_storage_ptr",
+										"typeString": "struct Product"
+									},
+									"typeName": {
+										"id": 9,
+										"nodeType": "UserDefinedTypeName",
+										"pathNode": {
+											"id": 8,
+											"name": "Product",
+											"nameLocations": [
+												"190:7:0"
+											],
+											"nodeType": "IdentifierPath",
+											"referencedDeclaration": 19,
+											"src": "190:7:0"
+										},
+										"referencedDeclaration": 19,
+										"src": "190:7:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_struct$_Product_$19_storage_ptr",
+											"typeString": "struct Product"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "Moviment",
+							"nameLocation": "133:8:0",
+							"nodeType": "StructDefinition",
+							"scope": 12,
+							"src": "126:86:0",
+							"visibility": "public"
+						}
+					],
+					"src": "39:173:0"
+				},
+				"id": 0
+			},
+			"definitions/ProductDef.sol": {
+				"ast": {
+					"absolutePath": "definitions/ProductDef.sol",
+					"exportedSymbols": {
+						"Product": [
+							19
+						]
+					},
+					"id": 20,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 13,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:1"
+						},
+						{
+							"canonicalName": "Product",
+							"documentation": {
+								"id": 14,
+								"nodeType": "StructuredDocumentation",
+								"src": "57:25:1",
+								"text": " @title Product"
+							},
+							"id": 19,
+							"members": [
+								{
+									"constant": false,
+									"id": 16,
+									"mutability": "mutable",
+									"name": "id",
+									"nameLocation": "111:2:1",
+									"nodeType": "VariableDeclaration",
+									"scope": 19,
+									"src": "104:9:1",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 15,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "104:6:1",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 18,
+									"mutability": "mutable",
+									"name": "description",
+									"nameLocation": "127:11:1",
+									"nodeType": "VariableDeclaration",
+									"scope": 19,
+									"src": "119:19:1",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 17,
+										"name": "uint256",
+										"nodeType": "ElementaryTypeName",
+										"src": "119:7:1",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "Product",
+							"nameLocation": "90:7:1",
+							"nodeType": "StructDefinition",
+							"scope": 20,
+							"src": "83:58:1",
+							"visibility": "public"
+						}
+					],
+					"src": "32:110:1"
+				},
+				"id": 1
+			}
+		}
+	}
+}

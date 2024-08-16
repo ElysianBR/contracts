@@ -1,0 +1,145 @@
+{
+	"id": "f173675b99b81fc34267a5f17c0b7e37",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		},
+		"sources": {
+			"definitions/StockPksDef.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.26;\r\n\r\n/**\r\n * @title StockPksDef\r\n */\r\nstruct StockPksDef {\r\n    uint product_id;\r\n    string control;\r\n}\r\n"
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"definitions/StockPksDef.sol": {
+				"ast": {
+					"absolutePath": "definitions/StockPksDef.sol",
+					"exportedSymbols": {
+						"StockPksDef": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".26"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						},
+						{
+							"canonicalName": "StockPksDef",
+							"documentation": {
+								"id": 2,
+								"nodeType": "StructuredDocumentation",
+								"src": "61:31:0",
+								"text": " @title StockPksDef"
+							},
+							"id": 7,
+							"members": [
+								{
+									"constant": false,
+									"id": 4,
+									"mutability": "mutable",
+									"name": "product_id",
+									"nameLocation": "125:10:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 7,
+									"src": "120:15:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 3,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "120:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 6,
+									"mutability": "mutable",
+									"name": "control",
+									"nameLocation": "149:7:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 7,
+									"src": "142:14:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 5,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "142:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "StockPksDef",
+							"nameLocation": "101:11:0",
+							"nodeType": "StructDefinition",
+							"scope": 8,
+							"src": "94:66:0",
+							"visibility": "public"
+						}
+					],
+					"src": "33:129:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
