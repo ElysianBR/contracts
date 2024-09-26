@@ -1,0 +1,13 @@
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\InventoryManagement.sol
+> Compiling .\contracts\ProductMovement.sol
+> Compiling .\contracts\ProductRegistry.sol
+> Compiling .\contracts\SupplyChainBase.sol
+> Compiling .\contracts\definitions\MovementDef.sol
+> Compiling .\contracts\definitions\ProductDef.sol
+> Compiling .\contracts\definitions\StockDef.sol
+> Artifacts written to C:\Users\Administrador\Documents\github\William Civa\tartarus\smartcontract\ethereum\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.21+commit.d9974bed.Emscripten.clang
